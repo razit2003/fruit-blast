@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en"
+data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Brust</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,100;1,300&display=swap" rel="stylesheet">
+    <style>
+        .lato{
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
+</head>
+<body class="lato">
+    <nav class="bg-red-500  rounded-3xl flex justify-around p-0 m-10">
+<div class="flex gap-[30px] col text-white text-sm items-center ">
+    <h5>Home</h5>
+    <h5>About Us</h5>
+    <h5>Shop</h5>
+    <h5>All Fruits</h5>
+</div>  
+<div class="flex my-8 gap-1">
+    <img class="h-[50px]" src="images/logo.png" alt="">
+<h3 class="text-white my-3 text-4xl">Fruit Burst</h3>
+
+</div>
+<div class="my-11 mr-4  ">
+    <div class="form-control">
+        
+        <div class="input-group">
+          <input type="text" placeholder="Search here" class="input" />
+          <button class="btn bg-white">
+ <img class="h-6" src="images/search.png" alt="">
+          </button>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+</div>
+    </nav>
+<section class="text-center">
+ 
+    <div class="carousel w-3/4 mt-11">
+        
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="/images//banner1.png" class="w-full" />
+         <h2 class=" text-5xl top-11 absolute left-[390px] text-white font-extrabold " >Exotic tastes at your<br> doorstep</h2>
+         <button class="absolute left-[550px] top-48 btn-primary bg-red-500 text-xl p-3 rounded-lg text-white font-medium">shop now</button>
+         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle">❮</a> 
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="/images/banner2.png" class="w-full" />
+          <h2 class=" text-5xl top-11 absolute left-[390px] text-white font-extrabold " >Exotic tastes at your<br> doorstep</h2>
+          <button class="absolute left-[550px] top-48 btn-primary bg-red-500 text-xl p-3 rounded-lg text-white font-medium">shop now</button>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle">❮</a> 
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide3" class="carousel-item relative w-full">
+          <img src="/images/banner3.png" class="w-full" />
+          <h2 class=" text-5xl top-11 absolute left-[390px] text-white font-extrabold " >Exotic tastes at your<br> doorstep</h2>
+          <button class="absolute left-[550px] top-48 btn-primary bg-red-500 text-xl p-3 rounded-lg text-white font-medium">shop now</button>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle">❮</a> 
+            <a href="#slide4" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide4" class="carousel-item relative w-full ">
+          <img src="/images/banner4.png" class="w-full" />
+          <h2 class=" text-5xl top-11 absolute left-[390px] text-white font-extrabold " >Exotic tastes at your<br> doorstep</h2>
+          <button class="absolute left-[550px] top-48 btn-primary bg-red-500 text-xl p-3 rounded-lg text-white font-medium">shop now</button>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" class="btn btn-circle">❮</a> 
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+
+    
+
+
+
+</section>
+
+</body>
+</html>
